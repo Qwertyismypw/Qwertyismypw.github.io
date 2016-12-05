@@ -11,7 +11,21 @@ function clock() { 
     hours = hours-12; 
   }else{  
     tod = 'AM'; 
+  }
+  if (day.toString().length<2){  day = '0'+day 
   } 
+  if (month.toString().length<2){  
+    month = '0'+month 
+  } 
+  if (hours.toString().length<2){  
+    hours = '0'+hours 
+  } 
+  if (minutes.toString().length<2){ 
+      minutes = '0'+minutes 
+  } 
+  if (seconds.toString().length<2){  
+        seconds = '0'+seconds 
+  }
   return month + '-' + day + '-' + year + ';' + hours + ':' + minutes + ':' + seconds + ' ' + tod;
 }
 
