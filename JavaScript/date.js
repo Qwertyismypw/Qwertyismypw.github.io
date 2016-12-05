@@ -7,11 +7,12 @@ function clock() { 
   var minutes = d.getMinutes(); 
   var seconds = d.getSeconds();  
   if (hours > 12){  
-    tod = 'PM'  hours = hours-12 
+    tod = 'PM';  
+    hours = hours-12; 
   }else{  
-    tod = 'AM' 
+    tod = 'AM'; 
   } 
-  return month + '-' + day + '-' + year + ';' + hours + ':' + minutes + ':' + seconds + ' ' + tod
+  return month + '-' + day + '-' + year + ';' + hours + ':' + minutes + ':' + seconds + ' ' + tod;
 }
 
 //Could shorten variables by combining day, month, and year - hours, minutes, seconds
