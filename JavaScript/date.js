@@ -13,3 +13,5 @@ function clock() { 
   } 
   return month + '-' + day + '-' + year + ';' + hours + ':' + minutes + ':' + seconds + ' ' + tod
 }
+
+//Could shorten variables by combining day, month, and year - hours, minutes, seconds
