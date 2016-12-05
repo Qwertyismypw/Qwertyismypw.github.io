@@ -1,7 +1,7 @@
 # Fran_Josh_Stuff
 Collaboration Website
 
-#Github freaking out on me. If you get the chance add 'Contact Us' link to attributions, geometry, and databases.html.
+Github freaking out on me. If you get the chance add 'Contact Us' link to attributions, geometry, and databases.html.
 
 #Todo in any order
   - Freeze time when project/row is added (may not be possible in current state)
