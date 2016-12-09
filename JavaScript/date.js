@@ -1,3 +1,5 @@
+var change = setInternval(function(){clock()}, 1)
+
 function clock() { 
   var d = new Date(); 
   var day = d.getDate(); 
@@ -26,8 +28,8 @@ function clock() { 
   if (seconds.toString().length<2){  
         seconds = '0'+seconds 
   }
-  var change = month + '-' + day + '-' + year + ';' + hours + ':' + minutes + ':' + seconds + ' ' + tod;
-  return setInterval(change, 1)
+  return month + '-' + day + '-' + year + ';' + hours + ':' + minutes + ':' + seconds + ' ' + tod;
 }
 
+return change
 //Could shorten variables by combining day, month, and year - hours, minutes, seconds
