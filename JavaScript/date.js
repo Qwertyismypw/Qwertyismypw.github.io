@@ -26,7 +26,7 @@ function clock() { 
   if (seconds.toString().length<2){  
         seconds = '0'+seconds 
   }
-  return month + '-' + day + '-' + year + ';' + hours + ':' + minutes + ':' + seconds + ' ' + tod;
+  return setInterval(month + '-' + day + '-' + year + ';' + hours + ':' + minutes + ':' + seconds + ' ' + tod, 1);
 }
 
 //Could shorten variables by combining day, month, and year - hours, minutes, seconds
