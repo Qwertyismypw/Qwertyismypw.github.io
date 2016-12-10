@@ -1,4 +1,7 @@
+var beginTime = setInterval(function(){clock()}, 1);
+
 function clock() { 
+  
   var d = new Date(); 
   var day = d.getDate(); 
   var year = d.getFullYear(); 
