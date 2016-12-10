@@ -2,7 +2,7 @@ function clock() { 
   var d = new Date(); 
   var day = d.getDate(); 
   var year = d.getFullYear(); 
-  var month = d.getMonth(); 
+  var month = d.getMonth()+1; 
   var hours = d.getHours(); 
   var minutes = d.getMinutes(); 
   var seconds = d.getSeconds();  
