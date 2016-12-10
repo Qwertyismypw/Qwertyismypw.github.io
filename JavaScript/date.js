@@ -18,19 +18,19 @@ function clock() { 
     tod = 'AM'; 
   }
   if (day.toString().length<2){  
-    day = '0'+day 
+    day = '0'+day; 
   } 
   if (month.toString().length<2){  
-    month = '0'+month 
+    month = '0'+month; 
   } 
   if (hours.toString().length<2){  
-    hours = '0'+hours 
+    hours = '0'+hours; 
   } 
   if (minutes.toString().length<2){ 
-      minutes = '0'+minutes 
+      minutes = '0'+minutes; 
   } 
   if (seconds.toString().length<2){  
-       seconds = '0'+seconds 
+       seconds = '0'+seconds;
   }
   var timeFormat = month + '/' + day + '/' + year + ' - ' + hours + ':' + minutes + ':' + seconds + ' ' + tod;
   
