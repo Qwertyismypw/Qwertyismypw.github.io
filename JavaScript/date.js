@@ -6,7 +6,7 @@ function clock() { 
   var hours = d.getHours(); 
   var minutes = d.getMinutes(); 
   var seconds = d.getSeconds();
-  month = month+1
+  month = month+1;
   
   if (hours > 12){  
     tod = 'PM';  
