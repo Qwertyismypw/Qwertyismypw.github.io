@@ -12,7 +12,8 @@ function clock() { 
   }else{  
     tod = 'AM'; 
   }
-  if (day.toString().length<2){  day = '0'+day 
+  if (day.toString().length<2){  
+    day = '0'+day 
   } 
   if (month.toString().length<2){  
     month = '0'+month 
@@ -24,8 +25,8 @@ function clock() { 
       minutes = '0'+minutes 
   } 
   if (seconds.toString().length<2){  
-        seconds = '0'+seconds 
+       seconds = '0'+seconds 
   }
-  return month + '-' + day + '-' + year + ';' + hours + ':' + minutes + ':' + seconds + ' ' + tod;
+  return month + '/' + day + '/' + year + ' - ' + hours + ':' + minutes + ':' + seconds + ' ' + tod;
 }
 //Could shorten variables by combining day, month, and year - hours, minutes, seconds
