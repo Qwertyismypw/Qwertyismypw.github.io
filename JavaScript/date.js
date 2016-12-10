@@ -29,6 +29,6 @@ function clock() { 
   if (seconds.toString().length<2){  
        seconds = '0'+seconds 
   }
-  return month + '/' + day + '/' + year + ' - ' + hours + ':' + minutes + ':' + seconds + ' ' + tod;
+  document.getElementById('currentTime').innerHTML = month + '/' + day + '/' + year + ' - ' + hours + ':' + minutes + ':' + seconds + ' ' + tod;
 }
 //Could shorten variables by combining day, month, and year - hours, minutes, seconds
